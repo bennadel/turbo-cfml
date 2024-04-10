@@ -10,12 +10,12 @@ export default [
     output: [
       {
         name: "Turbo",
-        file: "dist/turbo.es2017-umd.js",
+        file: "dist/turbo-cfml.es2017-umd.js",
         format: "umd",
         banner
       },
       {
-        file: "dist/turbo.es2017-esm.js",
+        file: "dist/turbo-cfml.es2017-esm.js",
         format: "es",
         banner
       }
