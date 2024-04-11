@@ -6,6 +6,10 @@ For reasons that I don't understand, the Turbo maintainers seem extremely hesita
 
 I have left most of the original files here in tact; and, changed only what I needed to in order to add CFML support and to allow me to build and install this repository as a `package.json` dependency.
 
+See the [differences between my code and the main code][cfml-diff].
+
+[cfml-diff]: https://github.com/hotwired/turbo/compare/main...bennadel:turbo-cfml:main
+
 [hotwire-turbo]: https://github.com/hotwired/turbo
 
 ----
