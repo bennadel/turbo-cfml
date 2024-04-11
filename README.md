@@ -1,4 +1,16 @@
-# Turbo
+# Turbo CFML
+
+This is a fork of the [Hotwire Turbo][hotwire-turbo] project. My only goal here is to make Turbo a bit more CFML compatible by including `cfc`, `cfm`, and `cfml` in the list of file extensions that Turbo considers to be likely to serve HTML content.
+
+For reasons that I don't understand, the Turbo maintainers seem extremely hesitant about putting this type of configuration into the hands of the developers (despite many people submitting PRs to this effect). As such, forking this project seemed like the path of least resistance.
+
+I have left most of the original files here in tact; and, changed only what I needed to in order to add CFML support and to allow me to build and install this repository as a `package.json` dependency.
+
+[hotwire-turbo]: https://github.com/hotwired/turbo
+
+----
+
+## Turbo (Original Readme)
 
 Turbo uses complementary techniques to dramatically reduce the amount of custom JavaScript that most web applications will need to write:
 
