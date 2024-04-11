@@ -6,6 +6,29 @@ For reasons that I don't understand, the Turbo maintainers seem extremely hesita
 
 I have left most of the original files here in tact; and, changed only what I needed to in order to add CFML support and to allow me to build and install this repository as a `package.json` dependency.
 
+To use this version of Turbo, you can include it in your `package.json` dependencies:
+
+```json
+{
+  "devDependencies": {
+    "turbo-cfml": "github:bennadel/turbo-cfml#cfml-8.0.4-2"
+  }
+}
+```
+
+... where `#cfml-8.0.4-2` indicates the branch / tag to be installed. Then, within your JavaScript, you can import `Turbo` from `turbo-cfml`:
+
+```js
+import * as Turbo from "turbo-cfml";
+
+document.documentElement.addEventListener(
+	"turbo:visit",
+	( event ) => {
+		console.log( event );
+	}
+);
+```
+
 See the [differences between my code and the main code][cfml-diff].
 
 [cfml-diff]: https://github.com/hotwired/turbo/compare/main...bennadel:turbo-cfml:main
