@@ -1,6 +1,6 @@
 {
   "name": "turbo-cfml",
-  "version": "8.0.4",
+  "version": "cfml-8.0.4-1",
   "description": "The speed of a single-page web application without having to write any JavaScript",
   "module": "dist/turbo-cfml.es2017-esm.js",
   "main": "dist/turbo-cfml.es2017-umd.js",
